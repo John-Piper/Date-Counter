@@ -1,0 +1,28 @@
+.count-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.count-component button {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  background: #388e3c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.count-component button:hover {
+  background: #2e7031;
+}
+
+.count-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

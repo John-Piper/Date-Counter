@@ -1,14 +1,41 @@
-# Getting Started with Create React App
+# Date Counter Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React app was built as a challenge project inspired by the Udemy course [The Ultimate React Course 2023: React, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/37350602?start=90#overview).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+The Date Counter app allows users to increment or decrement a step value and a count value, and displays the resulting date based on the number of steps from today. It also features a warning when steps is zero and a reset button to quickly set both values to 1.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
+1. Clone this repository
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Running the App
+
+To run the app in development mode:
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## AI Assistance
+
+AI (GitHub Copilot) was used to help build this project, providing code suggestions, component structure, and best practices throughout the development process.
+
+## Purpose
+
+This project is intended for my GitHub profile as a demonstration of my learning and progress in React, as well as my ability to leverage AI tools for efficient development.
+
+---
+
+Feel free to explore and use.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
