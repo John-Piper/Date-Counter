@@ -1,6 +1,6 @@
 # Date Counter Application
 
-This React app was built as a challenge project inspired by the Udemy course [The Ultimate React Course 2023: React, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/37350602?start=90#overview).
+This React app was built as a challenge project inspired by the Udemy course [The Ultimate React Course 2025: React, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/).
 
 ## About
 
