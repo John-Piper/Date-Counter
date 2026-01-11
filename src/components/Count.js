@@ -1,11 +1,10 @@
-import React from "react";
 import PropTypes from "prop-types";
 import "./Count.css";
 
 function Count({ count, setCount }) {
   const handleInputChange = (e) => {
     const value = e.target.value;
-    if (value === '') {
+    if (value === "") {
       setCount(0);
       return;
     }
