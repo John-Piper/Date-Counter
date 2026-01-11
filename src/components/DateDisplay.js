@@ -11,11 +11,16 @@ function DateDisplay({ steps, count }) {
   // Format as 'Tue Jun 22 2027'
   const formatted = resultDate.toDateString();
 
+  const displayText =
+    days === 0
+      ? `Today is ${formatted}`
+      : days < 0
+      ? `${Math.abs(days)} days ago was ${formatted}`
+      : `${days} days from today is ${formatted}`;
+
   return (
     <div className="date-display">
-      <span>
-        {days} days from today is {formatted}
-      </span>
+      <span>{displayText}</span>
     </div>
   );
 }

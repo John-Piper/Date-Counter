@@ -4,7 +4,7 @@ import "./StepWarning.css";
 function StepWarning() {
   return (
     <div className="step-warning">
-      Warning: The days will remain as 0 because the Steps is 0
+      Warning: The result is 0 days (Steps or Count is 0)
     </div>
   );
 }
